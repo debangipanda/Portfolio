@@ -4,178 +4,361 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Debangi Panda | AI Full-Stack Developer</title>
-    <meta name="description" content="Debangi Panda — AI Full-Stack Developer and Software Development Engineer I. Building AI-powered applications: LLM integrations, agent workflows, RAG systems, conversational AI and full-stack engineering with React, Next.js, TypeScript, Python and FastAPI.">
+    <meta name="description" content="Debangi Panda — AI Full-Stack Developer and Software Development Engineer I with 3+ years of experience. Building AI-powered applications: LLM integrations, agent workflows, RAG systems, voice AI pipelines and full-stack engineering with React, Next.js, TypeScript, Python and FastAPI.">
     <meta property="og:title" content="Debangi Panda | AI Full-Stack Developer">
     <meta property="og:description" content="Experienced full-stack engineer building intelligent AI applications — LLM integrations, agent workflows, RAG systems and voice AI pipelines.">
     <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/f366d3d5dd.js" crossorigin="anonymous"></script>
 </head>
 <body>
- 
- <div id="header">
+
+<!-- ===================== NAV ===================== -->
+<nav>
+    <a href="#header" class="nav-logo">Debangi<span>.</span></a>
+    <ul id="sidemenu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">What I Do</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="images/DebangiPanda_Resume.pdf" download class="nav-cta">Resume</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<header id="header">
     <div class="container">
-        
-        <nav>
-            <ul id="sidemenu">
-                <li><p><i class="fa fa-github" aria-hidden="true"></i></p><a href=""</li>
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-            </ul>
-            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-        </nav>
-        <div class="header-text">
-            <p>AI Full-Stack Developer | Software Development Engineer I</p>
-            <h1>Hey, <br>I'm <Span>Debangi</Span> Panda</h1>
-        </div>
-    </div>
- </div> 
- <!-- ---------about---------- -->
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="images/about.jpg">
+        <div class="hero-grid">
+            <div class="header-text">
+                <span class="role-pill"><span class="pulse"></span> Available for collaboration</span>
+                <h1>Hi, I'm <span>Debangi Panda</span></h1>
+                <p class="role-pill" style="margin-top:18px; border-color: rgba(255,46,99,0.4); color:#fff;">
+                    AI Full-Stack Developer &nbsp;·&nbsp; Software Development Engineer I
+                </p>
+                <p class="header-tagline">I build and ship AI-powered applications end-to-end — LLM integrations, agent workflows, RAG systems and conversational voice AI — on a foundation of scalable React, Next.js and Python engineering, with 3+ years of industry experience.</p>
+                <div class="header-cta">
+                    <a href="#projects" class="btn-cta primary">View My Work</a>
+                    <a href="images/DebangiPanda_Resume.pdf" download class="btn-cta ghost">Download CV</a>
+                </div>
             </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">About Me</h1>
-                <p>I'm Debangi Panda, an AI Full-Stack Developer (Software Development Engineer I) who builds and ships AI-powered applications end-to-end. I work across the full stack — engineering scalable applications with React, Next.js, TypeScript, Python, FastAPI and Java; integrating LLMs and building agent workflows and RAG systems; and developing conversational and voice AI pipelines. Alongside day-to-day engineering, I investigate and improve AI pipeline reliability — retrieval behavior, model integrations, workflow execution, observability and performance debugging.</p>
-                <p>I believe strong engineering comes from continuous evolution. Alongside building real-world AI applications, I consistently expand my knowledge of emerging models, agent architectures and AI engineering practices to build better, more reliable intelligent systems.</p>
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
-                </div>
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li><span>AI & LLM Engineering</span><br>Build and integrate LLM-powered applications with prompt engineering, structured outputs, streaming responses and model API integrations.</li>
-                        <li><span>Agentic Systems & Workflow Orchestration</span><br>Develop and debug AI agent workflows — multi-step reasoning, tool-calling agents, orchestration frameworks and stateful execution pipelines.</li>
-                        <li><span>Conversational & Voice AI</span><br>Integrate language and speech models into production workflows — voice pipelines, real-time conversation handling and speech recognition.</li>
-                        <li><span>RAG & Knowledge Retrieval</span><br>Implement retrieval-based AI capabilities — document chunking, embeddings, vector stores, retrieval strategies and answer grounding.</li>
-                        <li><span>Backend Engineering</span><br>Build scalable APIs and services with Python, FastAPI and Java — async processing, data modeling and service integrations.</li>
-                        <li><span>Frontend Engineering</span><br>Develop responsive, performant applications with React, Next.js and TypeScript.</li>
-                        <li><span>Cloud & Infrastructure</span><br>Deploy and manage AI applications on cloud platforms — containerization, environment configuration and deployment pipelines.</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="experience">
-                    <ul>
-                        <li><span>Software Development Engineer I</span><br>Engineering AI-powered applications end-to-end: full-stack development with React, TypeScript, Python and FastAPI; building LLM integrations, agent workflows and RAG pipelines; debugging conversational AI and voice pipeline behavior in production.</li>
-                        <li><span>Software Development Intern — Sammegh Technologies, Bangalore</span><br>Contributed to the design and delivery of an LMS web application, including UI development in React and manual testing of application features.</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li><span>B.Tech, Computer Science</span><br>Gandhi Institute Of Excellent Technocrats (GIET), Bhubaneswar
-                              || 2021 - 2025
-                              || CGPA: 8.89/10
-                            </li>
-                        <li><span>Senior Secondary (XII)</span><br>Adyant Higher Secondary School, Bhubaneswar
-                            || (CHSE board)
-                            || Year of completion: 2020
-                           || Percentage: 73.40%</li>
-                        <li><span>Secondary (X)</span><br>Saheed Laxman Nayak Public School, Umerkote
-                            || (ICSE board)
-                            || Year of completion: 2018
-                            || Percentage: 84.50%
-                            </li>
-                    </ul>
+            <div class="hero-card">
+                <img src="images/about.jpg" alt="Debangi Panda">
+                <div class="hero-badge">
+                    <strong>Debangi Panda</strong>
+                    <span>Bhubaneswar, India</span>
                 </div>
             </div>
         </div>
+
+        <div class="stats">
+            <div class="stat"><h3>3+</h3><p>Years building web &amp; AI products</p></div>
+            <div class="stat"><h3>2</h3><p>AI platforms shipped at Infinia</p></div>
+            <div class="stat"><h3>5+</h3><p>Production projects delivered</p></div>
+            <div class="stat"><h3>4</h3><p>Model &amp; speech providers integrated</p></div>
+        </div>
     </div>
-</div>
-<!-- ---------Services---------- -->
-<div id="services">
+</header>
+
+<!-- ===================== ABOUT ===================== -->
+<section id="about">
     <div class="container">
-        <h1 class="sub-title">What I Do</h1>
-        <div class="services-list">
+        <span class="eyebrow">About Me</span>
+        <h2 class="section-title">Engineering intelligent<br>applications end&#8209;to&#8209;end<span class="dot">.</span></h2>
+        <div class="about-grid">
             <div>
+                <p class="about-text">I'm an <strong>AI-focused Full Stack Developer</strong> with <strong>3+ years of experience</strong> building data-driven web applications and contributing to AI-powered products in production. I work across the full stack — <strong>React, Next.js and TypeScript</strong> frontends, <strong>Python/FastAPI</strong> services, REST APIs and workflow integrations — with recent hands-on work on conversational voice-agent pipelines, LLM integrations, STT/TTS workflows, agent-generation experiences and retrieval/RAG-based QA systems. I'm experienced in analyzing logs, traces and pipeline behavior to improve conversation flow, reliability and latency.</p>
+                <div class="learning-note">
+                    "I believe strong engineering comes from continuous evolution. Alongside building real-world AI applications, I consistently expand my knowledge of emerging models, agent architectures and AI engineering practices to build better, more reliable intelligent systems."
+                </div>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab(event,'experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab(event,'skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab(event,'education')">Education</p>
+                </div>
+
+                <!-- EXPERIENCE -->
+                <div class="tab-contents active-tab" id="experience">
+                    <ul style="list-style:none;">
+                        <li class="timeline">
+                            <div class="timeline-item">
+                                <h3>Software Development Engineer I</h3>
+                                <p class="meta">Infinia Technologies &nbsp;·&nbsp; Oct 2026 – Present</p>
+                                <ul>
+                                    <li>Contribute to <strong>Novis AI</strong>, an AI voice-agent platform, across frontend, backend and conversational pipeline workflows for agent creation and execution.</li>
+                                    <li>Work on guided agent generation — scope discovery, bounded question flows and reviewable build briefs that clarify requirements before workflow-graph generation.</li>
+                                    <li>Investigate <strong>Pipecat-based</strong> voice-agent execution across LLM, STT and TTS stages; analyze logs and call traces for latency, turn-taking, end-of-turn behavior and pipeline stalls.</li>
+                                    <li>Work with model and speech integrations including <strong>DeepSeek V4.1, Google Gemma, Sarvam and ElevenLabs</strong>; debug tool execution, graph behavior, language detection and conversation flow.</li>
+                                    <li>Contribute to <strong>Vera</strong>, an AI platform for legal teams, by analyzing RAG/retrieval behavior, knowledge-base QA flows and evaluation baselines; investigate retrieval quality and evidence-grounded responses.</li>
+                                    <li>Build React/Next.js + TypeScript interfaces with Python/FastAPI backends; Docker-based local development; collaborate across product, frontend and backend workflows.</li>
+                                </ul>
+                            </div>
+                            <div class="timeline-item">
+                                <h3>Full Stack Developer</h3>
+                                <p class="meta">ByteIQ Analytics Pvt. Ltd. &nbsp;·&nbsp; Feb 2024 – Oct 2026</p>
+                                <ul>
+                                    <li>Developed responsive, data-intensive frontend applications using <strong>React.js, Next.js and TypeScript</strong> for client-facing platforms.</li>
+                                    <li>Improved data-fetching behavior in complex dashboards with <strong>React Query</strong> — caching, background refetching, parallel queries, retries and query invalidation.</li>
+                                    <li>Built <strong>Microsoft Power Apps PCF controls and Web Resources</strong> to support Dynamics 365 integrations.</li>
+                                    <li>Managed application state with Redux Toolkit; developed reusable UI components with shadcn/ui, MUI, Ant Design and Tailwind CSS.</li>
+                                    <li>Integrated REST APIs and collaborated with backend, data and design teams to deliver end-to-end product features.</li>
+                                    <li>Used Playwright and Python scripts for browser automation, data scraping and structured data ingestion; worked with MySQL/PostgreSQL and AWS EC2, RDS and S3.</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- SKILLS -->
+                <div class="tab-contents" id="skills">
+                    <ul style="list-style:none;">
+                        <li class="edu-item">
+                            <h3>AI &amp; LLM Engineering</h3>
+                            <p>LLM-powered applications, AI agents, prompt/context design, tool execution, workflow orchestration, RAG concepts, retrieval evaluation, conversational AI debugging.</p>
+                        </li>
+                        <li class="edu-item">
+                            <h3>Conversational &amp; Voice AI</h3>
+                            <p>Pipecat voice-agent pipelines, STT/TTS integrations, turn-taking, end-of-turn handling, latency and pipeline-stall investigation.</p>
+                        </li>
+                        <li class="edu-item">
+                            <h3>Models &amp; Speech Providers</h3>
+                            <p>DeepSeek V4.1 &nbsp;·&nbsp; Google Gemma &nbsp;·&nbsp; Sarvam &nbsp;·&nbsp; ElevenLabs</p>
+                        </li>
+                        <li class="edu-item">
+                            <h3>Backend &amp; Data</h3>
+                            <p>Python, FastAPI, Java, Spring Boot, RESTful APIs, PostgreSQL, MySQL, pgvector, Redis, AWS EC2 / RDS / S3, Docker, Docker Compose.</p>
+                        </li>
+                        <li class="edu-item">
+                            <h3>Frontend Engineering</h3>
+                            <p>React.js, Next.js, TypeScript, JavaScript (ES6+), Redux Toolkit, React Query, Tailwind CSS, shadcn/ui, Ant Design, Material UI, HTML5, CSS3.</p>
+                        </li>
+                        <li class="edu-item">
+                            <h3>Cloud, DevOps &amp; Testing</h3>
+                            <p>AWS (EC2, RDS, S3), Docker, Git/GitHub, Playwright browser automation, Python scripting, layered service architecture, JWT authentication.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- EDUCATION -->
+                <div class="tab-contents" id="education">
+                    <ul style="list-style:none;">
+                        <li class="edu-item">
+                            <h3>B.Tech, Computer Science</h3>
+                            <p>Gandhi Institute Of Excellent Technocrats (GIET), Bhubaneswar &nbsp;||&nbsp; 2021 – 2025 &nbsp;||&nbsp; CGPA: 8.89/10</p>
+                        </li>
+                        <li class="edu-item">
+                            <h3>Senior Secondary (XII) — Science</h3>
+                            <p>Adyant Higher Secondary School, Bhubaneswar &nbsp;||&nbsp; CHSE &nbsp;||&nbsp; 2020 &nbsp;||&nbsp; 73.4%</p>
+                        </li>
+                        <li class="edu-item">
+                            <h3>Secondary (X)</h3>
+                            <p>Saheed Laxman Nayak Public School, Umerkote &nbsp;||&nbsp; ICSE &nbsp;||&nbsp; 2018 &nbsp;||&nbsp; 84.5%</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section id="services">
+    <div class="container">
+        <span class="eyebrow">What I Do</span>
+        <h2 class="section-title">Where I create value<span class="dot">.</span></h2>
+        <p class="section-lead">Three areas where I build, integrate and debug — from model selection to the interface a user actually touches.</p>
+        <div class="services-list">
+            <div class="service-card">
+                <div class="ico"><i class="fa-solid fa-brain"></i></div>
                 <h2>AI Application Engineering</h2>
                 <p>Build and integrate LLM-powered applications — agent workflows, RAG systems, structured outputs and conversational AI, engineered end-to-end from model selection to production behavior.</p>
-                    <a href="#portfolio">See my work</a>
             </div>
-            <div>
+            <div class="service-card">
+                <div class="ico"><i class="fa-solid fa-layer-group"></i></div>
                 <h2>Full-Stack Development</h2>
                 <p>Develop scalable web applications with React, Next.js, TypeScript, Python, FastAPI and Java — from data modeling and APIs to polished, responsive interfaces.</p>
-                    <a href="#portfolio">See my work</a>
             </div>
-            <div>
+            <div class="service-card">
+                <div class="ico"><i class="fa-solid fa-wave-square"></i></div>
                 <h2>AI Systems Engineering</h2>
                 <p>Work across conversational and voice AI pipelines — model and speech integrations, retrieval behavior, workflow execution, observability and performance debugging.</p>
-                    <a href="#about">Read about my approach</a>
             </div>
         </div>
     </div>
-</div>
+</section>
 
-<!-- ------------Portfolio-------------- -->
-
-<div id="portfolio">
+<!-- ===================== PROJECTS ===================== -->
+<section id="projects">
     <div class="container">
-        <h1 class="sub-title">My Work</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="images/Work1.webp">
-                <div class="layer">
-                    <h3>Smart Recruit AI</h3>
-                    <p>AI-powered recruitment platform — resume parsing, candidate screening and interview workflows built on LLM integrations and agent pipelines.</p>
+        <span class="eyebrow">Selected Projects</span>
+        <h2 class="section-title">Things I've built &amp; shipped<span class="dot">.</span></h2>
+        <p class="section-lead">A cross-section of production work — voice-agent platforms, retrieval systems and full-stack engineering across AI products.</p>
+
+        <div class="projects-grid">
+
+            <article class="project-card">
+                <div class="project-head g1">
+                    <div class="pico"><i class="fa-solid fa-headset"></i></div>
+                    <h3>Novis AI — Conversational Voice-Agent Platform</h3>
+                    <p class="pmeta">Infinia Technologies &nbsp;·&nbsp; Current</p>
                 </div>
-            </div>
-            <div class="work">
-                <img src="images/Work2.jpg">
-                <div class="layer">
-                    <h3>Whimsy Shop</h3>
-                    <p>Full-stack e-commerce application with product catalog, cart and checkout flows — React frontend with a FastAPI backend.</p>
+                <div class="project-body">
+                    <p>A platform for creating and running conversational AI voice agents, spanning agent creation and execution — guided scoping, graph-based orchestration and live voice conversation behavior.</p>
+                    <ul>
+                        <li>Contributed to agent creation and execution workflows, including guided scope discovery, bounded question flows and reviewable build briefs.</li>
+                        <li>Investigated end-to-end LLM/STT/TTS pipeline behavior using logs and call traces, focusing on turn-taking, end-of-turn handling, latency and reliability.</li>
+                        <li>Integrated DeepSeek V4.1, Google Gemma, Sarvam and ElevenLabs; debugged tool execution, language detection and conversation flow.</li>
+                    </ul>
+                    <div class="tag-row">
+                        <span class="tag">Pipecat</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">FastAPI</span>
+                        <span class="tag">React</span>
+                        <span class="tag">Next.js</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">DeepSeek V4.1</span>
+                        <span class="tag">Sarvam</span>
+                        <span class="tag">ElevenLabs</span>
+                    </div>
                 </div>
-            </div>
-            <div class="work">
-                <img src="images/Work3.webp">
-                <div class="layer">
-                   <h3>Project Onboarding Agent</h3>
-                   <p>Conversational AI agent that guides users through project onboarding — multi-step agent workflow with LLM-driven conversation and structured data extraction.</p>
+            </article>
+
+            <article class="project-card">
+                <div class="project-head g2">
+                    <div class="pico"><i class="fa-solid fa-scale-balanced"></i></div>
+                    <h3>Vera — AI Legal Workspace / Retrieval-Augmented QA</h3>
+                    <p class="pmeta">Infinia Technologies &nbsp;·&nbsp; Current</p>
                 </div>
-            </div>
+                <div class="project-body">
+                    <p>An AI platform for legal teams built around retrieval-augmented document question answering — analyzing how legal context is retrieved and supplied to AI responses.</p>
+                    <ul>
+                        <li>Analyzed the document-QA and retrieval pipeline — knowledge-base retrieval behavior, RAG evaluation baselines and evidence-grounded answer quality.</li>
+                        <li>Investigated retrieval configuration and supporting services to improve how legal context is retrieved and grounded into responses.</li>
+                    </ul>
+                    <div class="tag-row">
+                        <span class="tag">Python</span>
+                        <span class="tag">FastAPI</span>
+                        <span class="tag">LangGraph</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">pgvector</span>
+                        <span class="tag">Redis</span>
+                        <span class="tag">Docker Compose</span>
+                        <span class="tag">Next.js</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-head g3">
+                    <div class="pico"><i class="fa-solid fa-file-circle-check"></i></div>
+                    <h3>MortgageAI — Document Processing Interface</h3>
+                    <p class="pmeta">AI Mortgage Platform</p>
+                </div>
+                <div class="project-body">
+                    <p>An internal document-processing interface for an AI mortgage platform, tracking documents through multi-stage agent and sub-agent workflows.</p>
+                    <ul>
+                        <li>Built tracking for documents as they move through multi-stage agent and sub-agent processing pipelines.</li>
+                        <li>Implemented bulk upload and processing controls, pipeline status monitoring, caching and query invalidation.</li>
+                    </ul>
+                    <div class="tag-row">
+                        <span class="tag">React.js</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">React Query</span>
+                        <span class="tag">Redux Toolkit</span>
+                        <span class="tag">REST APIs</span>
+                        <span class="tag">AWS</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-head g4">
+                    <div class="pico"><i class="fa-solid fa-diagram-project"></i></div>
+                    <h3>Nexus Dashboard — Connected-Entity Visualization</h3>
+                    <p class="pmeta">Dataverse Case-Management Platform</p>
+                </div>
+                <div class="project-body">
+                    <p>A case-management platform with interactive graph views for exploring connected entities such as locations, people and evidence.</p>
+                    <ul>
+                        <li>Developed interactive graph visualizations for connected entities across large relational datasets.</li>
+                        <li>Implemented entity detail panels and related-case discovery; optimized graph rendering and data fetching.</li>
+                    </ul>
+                    <div class="tag-row">
+                        <span class="tag">React.js</span>
+                        <span class="tag">Cytoscape.js</span>
+                        <span class="tag">D3.js</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">REST APIs</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-head g5">
+                    <div class="pico"><i class="fa-solid fa-server"></i></div>
+                    <h3>Pogli Platform — Backend Services</h3>
+                    <p class="pmeta">Enterprise Platform</p>
+                </div>
+                <div class="project-body">
+                    <p>Backend services for an enterprise platform, built with a layered architecture and secure authentication flows.</p>
+                    <ul>
+                        <li>Built services with a layered Controller–Service–DAO architecture and JWT authentication with OTP-based registration and password reset.</li>
+                        <li>Developed a nine-dimension scoring engine and integrated Razorpay subscriptions with AWS S3 document storage.</li>
+                    </ul>
+                    <div class="tag-row">
+                        <span class="tag">Java</span>
+                        <span class="tag">Spring Boot</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">JWT</span>
+                        <span class="tag">Razorpay</span>
+                        <span class="tag">AWS S3</span>
+                    </div>
+                </div>
+            </article>
+
         </div>
-        <a href="#" class="btn">See more</a>
     </div>
-</div>
+</section>
 
-<!-- ----------------Contact------------ -->
-<div id="contact">
+<!-- ===================== CONTACT ===================== -->
+<section id="contact">
     <div class="container">
-        <div class="row">
+        <div class="contact-grid">
             <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-solid fa-envelope"></i>debangipanda@gmail.com</p>
-                <p><i class="fa-solid fa-phone"></i>7008613899</p>
+                <span class="eyebrow">Contact</span>
+                <h2 class="section-title">Let's build something<span class="dot">.</span></h2>
+                <p class="lead">Open to collaboration, AI product work and full-stack engineering opportunities.</p>
+                <p><i class="fa-solid fa-envelope"></i><a href="mailto:debangipanda@gmail.com">debangipanda@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone"></i><a href="tel:7008613899">7008613899</a></p>
+                <p><i class="fa-solid fa-location-dot"></i>Bhubaneswar, India</p>
                 <div class="social-icons">
-                    <a href="https://www.facebook.com/profile.php?id=100095310590640"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://twitter.com/debangi_panda"><i class="fa-brands fa-square-twitter"></i></a>
-                    <a href="https://instagram.com/_nameisisha_?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-square-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/debangi-panda-3a8410210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/debangi-panda-3a8410210" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/debangi_panda" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100095310590640" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/_nameisisha_" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
                 </div>
-                <a href="images/DebangiPanda_Resume.pdf" download class="btn btn2">Download CV</a>
             </div>
             <div class="contact-right">
                 <form name="submit-to-google-sheet">
                     <input type="text" name="Name" placeholder="Your Name" required>
                     <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
+                    <textarea name="Message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                    <span id="msg"></span>
                 </form>
-                <span id="msg">Hello!!</span>
             </div>
         </div>
+        <div class="copyright">
+            <p>Created by DEBANGI PANDA &nbsp;|&nbsp; <i class="fa-regular fa-copyright"></i> All rights reserved.</p>
+        </div>
     </div>
-    <div class="copyright">
-        <p>Created by DEBANGI PANDA| <i class="fa-regular fa-copyright"></i> All rights reserved.</p>
-    </div>
-</div>
+</section>
 
-</body>
 <script src="index.js"></script>
+</body>
 </html>
