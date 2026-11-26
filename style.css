@@ -226,8 +226,9 @@ nav .fa-solid{ display: none; }
 .hero-card img{
     width: 100%;
     border-radius: 12px;
-    aspect-ratio: 4/5;
+    aspect-ratio: 3/4;
     object-fit: cover;
+    object-position: 50% 18%;
 }
 .hero-card .hero-badge{
     margin-top: 16px;
